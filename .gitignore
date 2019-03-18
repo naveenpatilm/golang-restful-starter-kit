@@ -30,3 +30,8 @@ coverage-all.out
 server
 
 # vendor
+.vendor-new/
+vendor/
+
+# go dep
+*.lock

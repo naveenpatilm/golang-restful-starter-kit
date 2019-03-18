@@ -1,9 +1,9 @@
 # Go RESTful Application Starter Kit
 
-[![GoDoc](https://godoc.org/github.com/qiangxue/golang-restful-starter-kit?status.png)](http://godoc.org/github.com/qiangxue/golang-restful-starter-kit)
-[![Build Status](https://travis-ci.org/qiangxue/golang-restful-starter-kit.svg?branch=master)](https://travis-ci.org/qiangxue/golang-restful-starter-kit)
-[![Coverage Status](https://coveralls.io/repos/github/qiangxue/golang-restful-starter-kit/badge.svg?branch=master)](https://coveralls.io/github/qiangxue/golang-restful-starter-kit?branch=master)
-[![Go Report](https://goreportcard.com/badge/github.com/qiangxue/golang-restful-starter-kit)](https://goreportcard.com/report/github.com/qiangxue/golang-restful-starter-kit)
+[![GoDoc](https://godoc.org/github.com/naveenpatilm/golang-restful-starter-kit?status.png)](http://godoc.org/github.com/naveenpatilm/golang-restful-starter-kit)
+[![Build Status](https://travis-ci.org/naveenpatilm/golang-restful-starter-kit.svg?branch=master)](https://travis-ci.org/naveenpatilm/golang-restful-starter-kit)
+[![Coverage Status](https://coveralls.io/repos/github/naveenpatilm/golang-restful-starter-kit/badge.svg?branch=master)](https://coveralls.io/github/naveenpatilm/golang-restful-starter-kit?branch=master)
+[![Go Report](https://goreportcard.com/badge/github.com/naveenpatilm/golang-restful-starter-kit)](https://goreportcard.com/report/github.com/naveenpatilm/golang-restful-starter-kit)
 
 This starter kit is designed to get you up and running with a project structure optimal for developing
 RESTful services in Go. The kit promotes the best practices that follow the [SOLID principles](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design))
@@ -42,13 +42,13 @@ After installing Go, run the following commands to download and install this sta
 
 ```shell
 # install the starter kit
-go get github.com/qiangxue/golang-restful-starter-kit
+go get github.com/naveenpatilm/golang-restful-starter-kit
 
 # install dep
 $ curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
 
 # fetch the dependent packages
-cd $GOPATH/qiangxue/golang-restful-starter-kit
+cd $GOPATH/naveenpatilm/golang-restful-starter-kit
 dep ensure
 ```
 
@@ -70,7 +70,7 @@ postgres://<username>:<password>@<server-address>:<server-port>/<db-name>
 For more details about specifying a PostgreSQL DSN, please refer to [the documentation](https://godoc.org/github.com/lib/pq).
 
 Now you can build and run the application by running the following command under the
-`$GOPATH/qiangxue/golang-restful-starter-kit` directory:
+`$GOPATH/naveenpatilm/golang-restful-starter-kit` directory:
 
 ```shell
 go run server.go
@@ -118,8 +118,8 @@ the project structure and the recommended practices.
 To use the starter kit as a starting point of a real project whose package name is something like
 `github.com/abc/xyz`, take the following steps:
  
-* move the directory `$GOPATH/github.com/qiangxue/golang-restful-starter-kit` to `$GOPATH/github.com/abc/xyz`
-* do a global replacement of the string `github.com/qiangxue/golang-restful-starter-kit` in all of
+* move the directory `$GOPATH/github.com/naveenpatilm/golang-restful-starter-kit` to `$GOPATH/github.com/abc/xyz`
+* do a global replacement of the string `github.com/naveenpatilm/golang-restful-starter-kit` in all of
   project files with the string `github.com/abc/xyz`
 
 ### Implementing CRUD of Another Table
