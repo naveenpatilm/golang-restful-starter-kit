@@ -170,3 +170,10 @@ The main entry of the application is in the `server.go` file. It does the follow
 * establish database connection
 * instantiate components and inject dependencies
 * start the HTTP server
+
+
+**TODO**
+
+ - [ ] Database Migration
+ - [ ] Dependency Injection
+
